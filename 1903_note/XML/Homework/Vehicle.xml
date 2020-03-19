@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Vehicles xmlns="file:/Users/gilwoongkang/1903_note/XML/Homework"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="file:/Users/gilwoongkang/1903_note/XML/Homework Vehicle.xsd">
+    
+    <Vehicle xsi:type="ConvertibleType">
+        <Body>My Car</Body>
+        <DriveTrain>
+            <Engine>My Engine</Engine>
+            <Transmission>My Transmission</Transmission>
+        </DriveTrain>
+        <Trunk>Back Trunk</Trunk>
+        <OperatingRoof>OperationRoof</OperatingRoof>
+    </Vehicle>
+    
+    <Vehicle xsi:type="SedanType">
+        <Body>Sedan Body</Body>
+        <DriveTrain>
+            <Engine>Sedan Engine</Engine>
+            <Transmission>Sedan Transmission</Transmission>
+        </DriveTrain>
+        <Trunk>Sedan Trunk</Trunk>
+    </Vehicle>
+    
+    <Vehicle xsi:type="AutomobileType">
+        <Body>Automobile Body</Body>
+        <DriveTrain>
+            <Engine>Auto mobile Engine</Engine>
+            <Transmission>Automobile Transmission</Transmission>
+        </DriveTrain>
+        <Trunk>Automobile Trunk</Trunk>
+    </Vehicle>
+    
+    <Vehicle xsi:type="TruckType">
+        <Body>Truck Body</Body>
+        <DriveTrain>
+            <Engine>Truck Engine</Engine>
+            <Transmission>Truck Transmission</Transmission>
+        </DriveTrain>
+        <Compartment>Truck Compartment</Compartment>
+    </Vehicle>
+</Vehicles> 

@@ -1,0 +1,355 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!--PG크로스브라우징필수내용 시작-->
+    <meta http-equiv="Cache-Control" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <!--PG크로스브라우징필수내용 끝-->
+
+    <title>기본 레이아웃</title>
+    <!--@css(/layout/basic/css/common.css)--><!--해당 CSS는 쇼핑몰 전체 페이지에 영향을 줍니다. 삭제와 수정에 주의해주세요.-->
+    <!--@css(/layout/basic/css/layout.css)-->
+    <!-- 스마트디자인에서는 최신 JQuery가 내장되어있습니다. 추가로 호출하면 충돌이 생길 수 있습니다. -->
+   <!--@js(/layout/basic/js/basic.js)-->
+    <!--@js(/js/common.js)-->
+    <script type="text/javascript" src="/ec-js/common.js"></script><!-- 해당 JS는 플래시를 사용하기 위한 스크립트입니다. -->
+</head>
+<body id="main">
+<div id="accNav">
+    <p><a href="#contents">컨텐츠 바로가기</a></p>
+</div>
+
+<div id="wrap">
+    <div id="header">
+   
+
+        <div class="inner">
+
+      <div class="top1">
+            <div module="Layout_statelogoff" class="link" >
+    
+               <li><a href="/member/login.html" class="log">로그인</a></li>
+                 <li><a href="/member/join.html">회원가입</a></li>
+                <li><a href="/order/basket.html">장바구니</a></li>
+                <li> <a href="/myshop/order/list.html">주문조회</a></li>
+                <li> <a href="/myshop/index.html">마이쇼핑</a></li>
+                <li> <a href="/board/index.html">게시판</a> </li>
+            <li style="background:none;"><div module="Layout_SearchHeader">
+                <!--@css(/css/module/layout/searchHeader.css)-->
+                <!--
+                $product_page=/product/detail.html
+                $category_page=/product/list.html
+                -->
+                <fieldset>
+             
+                    {$form.keyword}<img src="/images/icon_search.gif" alt="검색" onclick="{$action_search_submit}" /></fieldset>
+            </div></li>
+            </div>
+
+            <div module="Layout_stateLogon" class="link" >
+       
+              <li> <a href="/member/modify.html">회원정보수정</a></li>
+               <li> <a href="{$action_logout}" >로그아웃</a></li>
+                <li> <a href="/order/basket.html">장바구니</a></li>
+               <li>  <a href="/myshop/order/list.html">주문조회</a></li>
+               <li>  <a href="/myshop/index.html">마이쇼핑</a></li>
+                <li> <a href="/board/index.html">게시판</a></li>
+            <li  style="background:none;">  <div module="Layout_SearchHeader">
+                <!--@css(/css/module/layout/searchHeader.css)-->
+                <!--
+                $product_page=/product/detail.html
+                $category_page=/product/list.html
+                -->
+                <fieldset>
+                     <legend>검색</legend>
+                    {$form.keyword}<img src="/images/icon_search.gif" alt="검색" onclick="{$action_search_submit}" /></fieldset>
+            </div></li>
+            </div>
+
+            <div class="icons">
+                <a href="/link/bookmark.html" target="_blank" onclick="winPop(this.href); return false;"><img src="http://img.echosting.cafe24.com/design/skin/default/layout/btn_bookmark.gif" alt="즐겨찾기" /></a>
+                <a href="/link/shortcut.html" target="_blank" onclick="winPop(this.href); return false;"><img src="http://img.echosting.cafe24.com/design/skin/default/layout/btn_desktop.gif" alt="바로가기" /></a>
+            </div>
+
+
+
+      </div><!-- top1 -->
+
+
+
+      <!-- top2 -->
+    </div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+    <hr class="layout" />
+
+    <div id="container">
+
+
+
+
+
+<div id="w1000">
+
+    <center><p id="visual"><img src="/web/upload/category/editor/2019/09/20/822cc7a6e5e38f32fa4344a2ca58a381.jpg" alt="" /></p></center>
+    <br/>
+ <div module="Layout_category">
+<!--@js(/js/module/layout/302/category.js)-->
+<!--@css(/css/module/layout/302/category.css)-->
+        <h2><img src="http://img.echosting.cafe24.com/design/skin/fashion002/h2_category.gif" alt="상품분류메뉴" /></h2>
+        <div class="postion">
+            <ul>
+                <li class="pst1"><a href="/product/list.html{$param}">{$name}</a></li>
+                <li class="pst2"><a href="/product/list.html{$param}">{$name}</a></li>
+                <li class="pst3"><a href="/product/list.html{$param}">{$name}</a></li>
+                <li class="pst4"><a href="/product/list.html{$param}">{$name}</a></li>
+                <li class="pst5"><a href="/product/list.html{$param}">{$name}</a></li>
+                <li class="pst6"><a href="/product/list.html{$param}">{$name}</a></li>
+                <li class="pst7"><a href="/product/list.html{$param}">{$name}</a></li>
+                <li class="pst8"><a href="/product/list.html{$param}">{$name}</a></li>
+                <li class="pst9"><a href="/product/list.html{$param}">{$name}</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+        <div id="snb">
+           
+
+                    <div module="Layout_login">
+<!--@css(/css/module/layout/494/login.css)-->
+    <h2>회원 로그인</h2>
+    <fieldset>
+    <legend>로그인</legend>
+        <p class="check">
+        <span><img src="http://img.echosting.cafe24.com/design/skin/mono/txt_login_id.gif" alt="id" />{$form.member_id}</span>
+        <span><img src="http://img.echosting.cafe24.com/design/skin/mono/txt_login_pw.gif" alt="password" />{$form.member_passwd}</span>
+        </p>
+        <p class="security">
+            {$form.check_save_id}
+            {$form.check_secret_connect}
+        </p>
+        <p class="btn">
+            <a href="#none" onclick="{$action_func_login}"><img src="http://img.echosting.cafe24.com/design/skin/mono/btn_login_login.gif" alt="로그인" /></a>
+            <a href="/member/join.html"><img src="http://img.echosting.cafe24.com/design/skin/mono/btn_login_join.gif" alt="회원가입" /></a>
+        </p>
+    </fieldset>
+    <ul>
+        <li><a href="/member/id/find_id.html">아이디 찾기</a></li>
+        <li><a href="/member/passwd/find_passwd_info.html">비밀번호 찾기</a></li>
+    </ul>
+</div>
+
+
+
+            <div module="Layout_Myshop">
+                <!--@css(/css/module/layout/myshop.css)-->
+                <h2><span>마이쇼핑</span></h2>
+                <ul>
+                    <li class="order"><a href="/myshop/order/list.html">주문내역조회</a></li>
+                    <li class="mileage"><a href="/myshop/mileage/historyList.html">적립금</a></li>
+                    <li class="member"><a href="/member/modify.html">회원정보</a></li>
+                    <li class="consult"><a href="/board/consult/list.html">1:1 맞춤상담</a></li>
+                    <li class="wish"><a href="/myshop/wish_list.html">관심상품</a></li>
+                </ul>
+            </div>
+
+         
+
+            <div module="Layout_project">
+                <!--@css(/css/module/layout/project.css)-->
+                <!--@js(/js/rotate.js)-->
+                <!--@js(/js/module/layout/project.js)-->
+                <h2><span>기획전</span></h2>
+                <ul>
+                    <li>
+                        <a href="/product/project.html{$param}"><img src="{$category_image}" alt="" style="width:180px;height:180px;" /></a>
+                    </li>
+                    <li>
+                        <a href="/product/project.html{$param}"><img src="{$category_image}" alt="" style="width:180px;height:180px;" /></a>
+                    </li>
+                </ul>
+                <p class="player">
+                    <img src="http://img.echosting.cafe24.com/design/skin/default/layout/btn_play_prev.gif" alt="이전" id="prevButton-project" class="prevButton" /><img src="http://img.echosting.cafe24.com/design/skin/default/layout/btn_play_next.gif" alt="다음" id="nextButton-project" class="nextButton" /><span><img src="http://img.echosting.cafe24.com/design/skin/default/layout/btn_play_stop.gif" alt="멈춤" id="stopButton-project" /><img src="http://img.echosting.cafe24.com/design/skin/default/layout/btn_play_play.gif" alt="재생" id="playButton-project" /></span>
+                </p>
+            </div>
+
+            <div module="Layout_Info">
+                <!--@css(/css/module/layout/info.css)-->
+                <h2><span>고객상담안내</span></h2>
+                <ul>
+                    <li><strong>TEL</strong><span>{$phone}</span></li>
+                    <li><strong>FAX</strong><span>{$fax}</span></li>
+                    <li><strong>TIME</strong><span>{$runtime}</span></li>
+                </ul>
+            </div>
+
+          
+            <div module="Layout_jointbuy"style="display:none;">
+                <!--@css(/css/module/layout/jointbuy.css)-->
+                <!--@js(/js/rotate.js)-->
+                <!--@js(/js/module/layout/jointbuy.js)-->
+                <h2><span><a href="/product/jointbuy.html{$param_title}">공동구매</a></span></h2>
+                <ul>
+                    <li><a href="/product/detail.html{$param}"><img src="{$img_220x220}" alt="" style="width:180px;height:180px;" /><strong>{$name|cut:15,...}</strong><span class="price">{$custom}</span><span>{$price}</span></a></li>
+                    <li><a href="/product/detail.html{$param}"><img src="{$img_220x220}" alt="" style="width:180px;height:180px;" /><strong>{$name|cut:15,...}</strong><span class="price">{$custom}</span><span>{$price}</span></a></li>
+                </ul>
+                <p class="player">
+                    <img src="http://img.echosting.cafe24.com/design/skin/default/layout/btn_play_prev.gif" alt="이전" id="prevButton" class="prevButton" /><img src="http://img.echosting.cafe24.com/design/skin/default/layout/btn_play_next.gif" alt="다음" id="nextButton" class="nextButton" /><span><img src="http://img.echosting.cafe24.com/design/skin/default/layout/btn_play_stop.gif" alt="멈춤" id="stopButton" /><img src="http://img.echosting.cafe24.com/design/skin/default/layout/btn_play_play.gif" alt="재생" id="playButton" /></span>
+                </p>
+            </div>
+
+            <div module="Layout_ProductBest">
+                <!--@css(/css/module/layout/productBest.css)-->
+                <!--@js(/js/rotate.js)-->
+                <!--@js(/js/module/layout/productBest.js)-->
+                <!--
+                $count = 3
+                -->
+                <h2><span>인기상품 베스트</span></h2>
+                <ol>
+                    <li>
+                        <a href="#none" class="{$best_product_class}"><img src="{$product_image_url}" alt="" style="width:180px;height:180px;" /></a>
+                        <p>{$content1|cut:15,...}<br/>{$content2|cut:15,...}</p>
+                    </li>
+                    <li>
+                        <a href="#none" class="{$best_product_class}"><img src="{$product_image_url}" alt="" style="width:180px;height:180px;" /></a>
+                        <p>{$content1|cut:15,...}<br/>{$content2|cut:15,...}</p>
+                    </li>
+                </ol>
+                <p class="player">
+                    <img src="http://img.echosting.cafe24.com/design/skin/default/layout/btn_play_prev.gif" alt="이전" id="popular-prevButton" class="prevButton" /><img src="http://img.echosting.cafe24.com/design/skin/default/layout/btn_play_next.gif" alt="다음" id="popular-nextButton" class="nextButton"  /><span><img src="http://img.echosting.cafe24.com/design/skin/default/layout/btn_play_stop.gif" alt="멈춤" id="popular-stopButton" /><img src="http://img.echosting.cafe24.com/design/skin/default/layout/btn_play_play.gif" alt="재생" id="popular-playButton" /></span>
+                </p>
+            </div>
+
+            <div module="Layout_Poll">
+                <!--@css(/css/module/layout/poll.css)-->
+                <h2><span>온라인 설문조사</span></h2>
+                <h3><span>질문</span>{$poll_title}</h3>
+                <fieldset>
+                    <legend>설문조사 항목</legend>
+                    <ul>
+                        <li>{$poll} {$poll_name}</li>
+                        <li>{$poll} {$poll_name}</li>
+                        <li>{$poll} {$poll_name}</li>
+                        <li>{$poll} {$poll_name}</li>
+                    </ul>
+                    <p class="btn">
+                        <a href="#none" onclick="{$action_poll_result}"><img src="http://img.echosting.cafe24.com/design/skin/default/layout/btn_result.gif" alt="결과보기" /></a>
+                        <a href="#none" onclick="{$action_poll_submit}"><img src="http://img.echosting.cafe24.com/design/skin/default/layout/btn_vote.gif" alt="투표하기" /></a>
+                    </p>
+                </fieldset>
+            </div>
+
+            <div id="banners">
+                <p module="Layout_giftBanner"><a href="/order/gift_list.html"><img src="http://img.echosting.cafe24.com/design/skin/default/layout/bn_gift.gif" alt="고객사은품 안내" /></a></p>
+                <p module="Layout_opdiaryBanner"><a href="/board/opdiary/list.html"><img src="http://img.echosting.cafe24.com/design/skin/default/layout/bn_diary.gif" alt="운영일지" /></a></p>
+                <p module="Layout_sosBanner"><a href="/urgency/urgency.html" target="_blank" onclick="window.open(this.href, 'urgency_call', 'width=700,height=620,scrollbars=yes'); return false"><img src="http://img.echosting.cafe24.com/design/skin/default/layout/bn_sos.gif" alt="긴급 문의" /></a></p>
+                <p module="Layout_attendBanner"><a href="/attend/index.html"><img src="http://img.echosting.cafe24.com/design/skin/default/layout/bn_attend.gif" alt="출석체크" /></a></p>
+                <p module="Layout_couponzoneBanner"><a href="/coupon/coupon_zone.html"><img src="http://img.echosting.cafe24.com/design/skin/default/layout/bn_coupon.gif" alt="알뜰살뜰 쿠폰존" /></a></p>
+                <p module="Layout_calendarBanner"><a href="{$calendar_view_page}"><img src="http://img.echosting.cafe24.com/design/skin/default/layout/bn_calendar.gif" alt="캘린더 게시판" /></a></p>
+            </div>
+        </div>
+
+        <hr class="layout" />
+
+        <div id="contents2">
+            <!--@contents-->
+        </div>
+    </div>
+
+    <hr class="layout" />
+
+    <div id="footer">
+        <h1 module="Layout_LogoBottom">
+            <!--@css(/css/module/layout/logobottom.css)-->
+            <a href="/index.html"><img src="{$logo}" alt="{$mall_name}" /></a>
+        </h1>
+
+        <div module="Layout_footer">
+            <!--@css(/css/module/layout/footer.css)-->
+            <ul class="utilMenu">
+                <li class="home"><a href="/index.html">홈</a></li>
+                <li><a href="/shopinfo/company.html">회사소개</a></li>
+                <li><a href="/member/agreement.html">이용약관</a></li>
+                <li><a href="/member/privacy.html">개인정보취급방침</a></li>
+                <li><a href="/shopinfo/guide.html">이용안내</a></li>
+            </ul>
+            <div class="address">
+                <p>
+                    <span>법인명(상호): {$company_name} </span> <span>대표자(성명): {$president_name}</span> <span>사업자 등록번호 안내: [{$company_regno}]</span> <span>통신판매업 신고 {$network_regno}</span> <br /> <span>{$biz_no_link}</span> <br />
+                    <span>전화: {$phone}</span> <span>팩스: {$fax}</span> <span>주소: {$mall_zipcode} {$mall_addr1} {$mall_addr2}</span><br />
+                    <span>개인정보관리책임자: <a href="mailto:{$cpo_email}">{$cpo_name}({$cpo_email})</a></span><br />
+                    <span>Contact <strong><a href="mailto:{$email}">{$email}</a></strong> for more information.</span>
+                </p>
+                <p class="copyright">Copyright &copy; 2010 <strong>{$mall_name}</strong> All rights reserved.</p>
+            </div>
+            <p class="top"><a href="#header" title="처음으로 이동하기"><img src="http://img.echosting.cafe24.com/design/skin/default/common/btn_pagetop.gif" alt="top" /></a></p>
+            <p class="hosting"><img src="http://img.echosting.cafe24.com/design/skin/default/common/logo_cafe24.png" alt="hosting by cafe24 심플렉스인터넷(주)" /></p>
+        </div>
+    </div>
+
+    <!-- <div id="banner">
+        <p><a href="#none"><img src="http://img.echosting.cafe24.com/design/skin/default/layout/img_banner1.jpg" alt="" /></a></p>
+    </div>
+
+    <div id="quick">
+   
+        <div module="Layout_productRecent">
+            <!--@css(/css/module/layout/productRecent.css)-->
+            <h2><a href="/product/recent_view_product.html">최근본상품</a></h2>
+            <ul>
+                <li class="{$disp_recent|display}">
+                    <a href="/product/detail.html{$param}"><img src="{$recent_img}" alt="" /><span>{$name}</span></a>
+                </li>
+                <li class="{$disp_recent|display}">
+                    <a href="/product/detail.html{$param}"><img src="{$recent_img}" alt="" /><span>{$name}</span></a>
+                </li>
+            </ul>
+            <p class="player"><img src="http://img.echosting.cafe24.com/design/skin/default/layout/btn_recent_prev.gif" alt="이전 제품" class="prev" /><img src="http://img.echosting.cafe24.com/design/skin/default/layout/btn_recent_next.gif" alt="다음 제품" class="next" /></p>
+        </div>
+
+
+    </div> -->
+</div>
+
+<!-- 참고: 결제를 위한 필수 영역 -->
+<div id="progressPaybar" style="display:none;">
+    <div id="progressPaybarBackground" class="layerProgress"></div>
+    <div id="progressPaybarView">
+        <div class="box">
+            <p class="graph">
+                <span><img src="http://img.cafe24.com/images/ec_hosting/popup/layer_guide/txt_prog_001.gif" alt="현재 결제가 진행중입니다." /></span>
+                <span><img src="http://img.cafe24.com/images/ec_hosting/popup/layer_guide/img_loading_bar.gif" alt="" /></span>
+            </p>
+            <p class="txt">
+                본 결체 창은 결제완료 후 자동으로 닫히며,결제 진행 중에 본 결제 창을 닫으시면<br />
+                주문이 되지 않으니 결제 완료 될 때 까지 닫지 마시기 바랍니다.
+            </p>
+        </div>
+    </div>
+</div>
+<!-- //참고 -->
+</body>
+</html>

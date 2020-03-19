@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>
+            getElementByID 예제
+        </title>
+        <script>
+        window.onload = function(){
+            var buttonBlue = document.getElementById('blue');
+            var buttonRed = document.getElementById('red');
+
+            buttonBlue.onclick = function(){
+                document.getElementById('para').style.color = 'blue';
+            };
+
+            buttonRed.onclick = function(){
+                document.getElementById('para').style.color = 'red';
+            };
+        };
+        </script>
+    </head>
+    <body>
+        <p id="para">Some para</p>
+        <input type ="button" value = "blue" id="blue"/>
+        <button id="red">red</button>
+    </body>
+</html>

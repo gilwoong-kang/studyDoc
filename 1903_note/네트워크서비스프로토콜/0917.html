@@ -1,0 +1,15 @@
+<html>
+<head>
+    <title>getElementById 예제</title> <script>
+        function changeColor(newColor) {
+        var elem = document.getElementById('para'); 
+        elem.style.color = newColor;
+        };
+    </script>
+</head>
+<body>
+    <p id="para">어떤 글</p>
+    <button onclick="changeColor('blue');">blue</button> 
+    <button onclick="changeColor('red');">red</button>
+</body>
+</html>
