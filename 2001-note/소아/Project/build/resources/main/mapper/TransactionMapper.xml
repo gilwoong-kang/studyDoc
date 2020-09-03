@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.architecture.architecture.DAO.TransactionDao">
+    <insert id="insert" parameterType="org.architecture.architecture.DTO.TransactionDto" useGeneratedKeys="true" keyProperty="userId">
+        INSERT INTO `Architecture`.`Transaction` (`description`, `type`, `amount`, `transfer-type`, `accountId`,`date`)
+        VALUES ('${description}', ${type}, ${amount}, '${transferType}', ${accountId},'${date}');
+    </insert>
+    <delete id="delete" parameterType="org.architecture.architecture.DTO.TransactionDto">
+        DELETE FROM `Transaction` WHERE `transaction-id` = ${transactionId}
+    </delete>
+    <update id="update" parameterType="org.architecture.architecture.DTO.UserDto" useGeneratedKeys="true" keyProperty="userId">
+        UPDATE `Transaction` SET `description` = '${description}', `type` = ${type}, `amount` = ${amount}, `transfer-type` = '${transferType},
+        `account-id` = ${accountId} WHERE `transaction-id` = ${transactionId}
+    </update>
+    <select id="select" parameterType="org.architecture.architecture.DTO.TransactionDto" resultType="org.architecture.architecture.DTO.TransactionDto">
+        SELECT * FROM `Transaction` WHERE `transaction-id` = ${transactionId}
+    </select>
+    <select id="selectAccount" parameterType="org.architecture.architecture.DTO.AccountDto" resultType="org.architecture.architecture.DTO.TransactionDto">
+        SELECT * FROM `Transaction` WHERE `accountId` = ${accountId}
+    </select>
+</mapper>

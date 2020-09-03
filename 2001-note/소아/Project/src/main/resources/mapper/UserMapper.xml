@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.architecture.architecture.DAO.UserDao">
+    <insert id="insert" parameterType="org.architecture.architecture.DTO.UserDto" useGeneratedKeys="true" keyProperty="userId">
+        INSERT INTO `User` (`user_name`) VALUES ('${userName}')
+    </insert>
+    <delete id="delete" parameterType="org.architecture.architecture.DTO.UserDto">
+        DELETE FROM `User` WHERE `user-id` = ${userId}
+    </delete>
+    <update id="update" parameterType="org.architecture.architecture.DTO.UserDto" useGeneratedKeys="true" keyProperty="userId">
+        UPDATE `User` SET `user-name` = '${userName} WHERE `user-id` = ${userId}
+    </update>
+    <select id="select" parameterType="org.architecture.architecture.DTO.UserDto" resultType="org.architecture.architecture.DTO.UserDto">
+        SELECT * FROM `User` WHERE `user_name` = '${userName}'
+    </select>
+</mapper>

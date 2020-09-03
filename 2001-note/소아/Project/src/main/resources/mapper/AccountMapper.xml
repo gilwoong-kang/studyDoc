@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.architecture.architecture.DAO.AccountDao">
+    <insert id="insert" parameterType="org.architecture.architecture.DTO.AccountDto" useGeneratedKeys="true" keyProperty="accountId">
+        INSERT INTO `Account` (`type`,`name`,`balance`,`user-id`) VALUES(${type},'${name}',${balance},${userId})
+    </insert>
+    <delete id="delete" parameterType="org.architecture.architecture.DTO.AccountDto">
+        DELETE FROM `Account` WHERE `account-id` = ${accountId}
+    </delete>
+    <update id="update" parameterType="org.architecture.architecture.DTO.AccountDto" useGeneratedKeys="true" keyProperty="accountId">
+        UPDATE `Account` SET `type` = ${type} , `name` = '${name}', `balance` = ${balance}, `user-id` = ${userId} WHERE `account-id` = ${accountId}
+    </update>
+    <select id="select" parameterType="org.architecture.architecture.DTO.AccountDto" resultType="org.architecture.architecture.DTO.AccountDto">
+        SELECT * FROM `Account` WHERE `account-id` = ${accountId}
+    </select>
+    <select id="selectUser" parameterType="org.architecture.architecture.DTO.UserDto" resultType="org.architecture.architecture.DTO.AccountDto">
+        SELECT * FROM `Account` WHERE `user-id` = ${userId}
+    </select>
+</mapper>
