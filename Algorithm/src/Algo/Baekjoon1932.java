@@ -2,7 +2,7 @@ package Algo;
 
 import java.util.*;
 
-public class Num1932 {
+public class Baekjoon1932 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         int m = Integer.valueOf(scanner.nextLine());
