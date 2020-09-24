@@ -3,7 +3,7 @@ package Algo;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Main {
+public class Baekjoon9251 {
     public static void main(String[] args){
         while(true){
 
