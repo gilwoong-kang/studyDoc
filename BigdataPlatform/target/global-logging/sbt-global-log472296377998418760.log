@@ -1,0 +1,9 @@
+[debug] > Exec(assembly, None, None)
+[debug] Evaluating tasks: assembly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to /Users/gilwoongkang/School/BigdataPlatform/target/scala-2.12/classes ...
+[info] done compiling
+[info] Strategy 'discard' was applied to a file (Run the task at debug level to see details)
+[debug] Forcing garbage collection...
+[success] Total time: 5 s, completed Dec 5, 2020 6:52:50 PM
+[debug] > Exec(idea-shell, None, None)

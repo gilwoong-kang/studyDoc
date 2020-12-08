@@ -1,4 +1,3 @@
 [debug] not up to date. inChanged = true, force = false
 [debug] Updating ProjectRef(uri("file:/Users/gilwoongkang/School/BigdataPlatform/"), "bigdataplatform")...
 [debug] Done updating ProjectRef(uri("file:/Users/gilwoongkang/School/BigdataPlatform/"), "bigdataplatform")
-[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.

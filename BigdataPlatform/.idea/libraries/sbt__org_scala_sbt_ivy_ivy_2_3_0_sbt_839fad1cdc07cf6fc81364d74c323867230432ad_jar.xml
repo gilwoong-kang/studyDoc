@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: org.scala-sbt.ivy:ivy:2.3.0-sbt-839fad1cdc07cf6fc81364d74c323867230432ad:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-839fad1cdc07cf6fc81364d74c323867230432ad/ivy-2.3.0-sbt-839fad1cdc07cf6fc81364d74c323867230432ad.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-839fad1cdc07cf6fc81364d74c323867230432ad/ivy-2.3.0-sbt-839fad1cdc07cf6fc81364d74c323867230432ad-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-839fad1cdc07cf6fc81364d74c323867230432ad/ivy-2.3.0-sbt-839fad1cdc07cf6fc81364d74c323867230432ad-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

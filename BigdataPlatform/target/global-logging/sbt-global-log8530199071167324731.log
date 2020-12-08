@@ -1,0 +1,13 @@
+[debug] > Exec(assembly, None, None)
+[debug] Evaluating tasks: assembly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to /Users/gilwoongkang/School/BigdataPlatform/target/scala-2.12/classes ...
+[warn] /Users/gilwoongkang/School/BigdataPlatform/src/main/scala/Main.scala:1:32: imported `SparkSubmit' is permanently hidden by definition of class SparkSubmit
+[warn] import org.apache.spark.deploy.SparkSubmit
+[warn]                                ^
+[warn] one warning found
+[info] done compiling
+[info] Strategy 'discard' was applied to a file (Run the task at debug level to see details)
+[debug] Forcing garbage collection...
+[success] Total time: 4 s, completed Dec 5, 2020 5:29:35 PM
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,228 @@
+[debug] > Exec(assembly, None, None)
+[debug] Evaluating tasks: assembly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to /Users/gilwoongkang/School/BigdataPlatform/target/scala-2.12/classes ...
+[info] done compiling
+[error] 28 errors were encountered during merge
+[error] java.lang.RuntimeException: deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-format/0.15.1/arrow-format-0.15.1.jar:git.properties
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-memory/0.15.1/arrow-memory-0.15.1.jar:git.properties
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/0.15.1/arrow-vector-0.15.1.jar:git.properties
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:javax/inject/Inject.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1.jar:javax/inject/Inject.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:javax/inject/Named.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1.jar:javax/inject/Named.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:javax/inject/Provider.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1.jar:javax/inject/Provider.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:javax/inject/Qualifier.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1.jar:javax/inject/Qualifier.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:javax/inject/Scope.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1.jar:javax/inject/Scope.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:javax/inject/Singleton.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1.jar:javax/inject/Singleton.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.0/jackson-annotations-2.10.0.jar:module-info.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.0/jackson-core-2.10.0.jar:module-info.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0.jar:module-info.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.0/jackson-module-paranamer-2.10.0.jar:module-info.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6/jakarta.ws.rs-api-2.1.6.jar:module-info.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/threeten/threeten-extra/1.5.0/threeten-extra-1.5.0.jar:module-info.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/aop/Advice.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.6.1/aopalliance-repackaged-2.6.1.jar:org/aopalliance/aop/Advice.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/aop/AspectException.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.6.1/aopalliance-repackaged-2.6.1.jar:org/aopalliance/aop/AspectException.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/intercept/ConstructorInterceptor.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.6.1/aopalliance-repackaged-2.6.1.jar:org/aopalliance/intercept/ConstructorInterceptor.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/intercept/ConstructorInvocation.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.6.1/aopalliance-repackaged-2.6.1.jar:org/aopalliance/intercept/ConstructorInvocation.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/intercept/Interceptor.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.6.1/aopalliance-repackaged-2.6.1.jar:org/aopalliance/intercept/Interceptor.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/intercept/Invocation.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.6.1/aopalliance-repackaged-2.6.1.jar:org/aopalliance/intercept/Invocation.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/intercept/Joinpoint.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.6.1/aopalliance-repackaged-2.6.1.jar:org/aopalliance/intercept/Joinpoint.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/intercept/MethodInterceptor.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.6.1/aopalliance-repackaged-2.6.1.jar:org/aopalliance/intercept/MethodInterceptor.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/intercept/MethodInvocation.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.6.1/aopalliance-repackaged-2.6.1.jar:org/aopalliance/intercept/MethodInvocation.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/ArrayStack.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/ArrayStack.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/Buffer.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/Buffer.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/BufferUnderflowException.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/BufferUnderflowException.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$1.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/FastHashMap$1.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$CollectionView$CollectionViewIterator.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/FastHashMap$CollectionView$CollectionViewIterator.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$CollectionView.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/FastHashMap$CollectionView.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$EntrySet.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/FastHashMap$EntrySet.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$KeySet.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/FastHashMap$KeySet.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$Values.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/FastHashMap$Values.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/FastHashMap.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.12/3.0.1/spark-catalyst_2.12-3.0.1.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-core_2.12/3.0.1/spark-core_2.12-3.0.1.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-kvstore_2.12/3.0.1/spark-kvstore_2.12-3.0.1.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.12/3.0.1/spark-launcher_2.12-3.0.1.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.12/3.0.1/spark-network-common_2.12-3.0.1.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.12/3.0.1/spark-network-shuffle_2.12-3.0.1.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.12/3.0.1/spark-sketch_2.12-3.0.1.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sql_2.12/3.0.1/spark-sql_2.12-3.0.1.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-tags_2.12/3.0.1/spark-tags_2.12-3.0.1.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.12/3.0.1/spark-unsafe_2.12-3.0.1.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/spark-project/spark/unused/1.0.0/unused-1.0.0.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] 	at sbtassembly.Assembly$.applyStrategies(Assembly.scala:161)
+[error] 	at sbtassembly.Assembly$.x$1$lzycompute$1(Assembly.scala:43)
+[error] 	at sbtassembly.Assembly$.x$1$1(Assembly.scala:41)
+[error] 	at sbtassembly.Assembly$.stratMapping$lzycompute$1(Assembly.scala:41)
+[error] 	at sbtassembly.Assembly$.stratMapping$1(Assembly.scala:41)
+[error] 	at sbtassembly.Assembly$.inputs$lzycompute$1(Assembly.scala:86)
+[error] 	at sbtassembly.Assembly$.inputs$1(Assembly.scala:76)
+[error] 	at sbtassembly.Assembly$.apply(Assembly.scala:103)
+[error] 	at sbtassembly.Assembly$.$anonfun$assemblyTask$1(Assembly.scala:278)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+[error] 	at sbt.Execute.work(Execute.scala:291)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[error] 	at java.lang.Thread.run(Thread.java:748)
+[error] (assembly) deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-format/0.15.1/arrow-format-0.15.1.jar:git.properties
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-memory/0.15.1/arrow-memory-0.15.1.jar:git.properties
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/0.15.1/arrow-vector-0.15.1.jar:git.properties
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:javax/inject/Inject.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1.jar:javax/inject/Inject.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:javax/inject/Named.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1.jar:javax/inject/Named.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:javax/inject/Provider.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1.jar:javax/inject/Provider.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:javax/inject/Qualifier.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1.jar:javax/inject/Qualifier.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:javax/inject/Scope.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1.jar:javax/inject/Scope.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:javax/inject/Singleton.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1.jar:javax/inject/Singleton.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.0/jackson-annotations-2.10.0.jar:module-info.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.0/jackson-core-2.10.0.jar:module-info.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0.jar:module-info.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.0/jackson-module-paranamer-2.10.0.jar:module-info.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6/jakarta.ws.rs-api-2.1.6.jar:module-info.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/threeten/threeten-extra/1.5.0/threeten-extra-1.5.0.jar:module-info.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/aop/Advice.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.6.1/aopalliance-repackaged-2.6.1.jar:org/aopalliance/aop/Advice.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/aop/AspectException.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.6.1/aopalliance-repackaged-2.6.1.jar:org/aopalliance/aop/AspectException.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/intercept/ConstructorInterceptor.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.6.1/aopalliance-repackaged-2.6.1.jar:org/aopalliance/intercept/ConstructorInterceptor.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/intercept/ConstructorInvocation.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.6.1/aopalliance-repackaged-2.6.1.jar:org/aopalliance/intercept/ConstructorInvocation.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/intercept/Interceptor.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.6.1/aopalliance-repackaged-2.6.1.jar:org/aopalliance/intercept/Interceptor.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/intercept/Invocation.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.6.1/aopalliance-repackaged-2.6.1.jar:org/aopalliance/intercept/Invocation.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/intercept/Joinpoint.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.6.1/aopalliance-repackaged-2.6.1.jar:org/aopalliance/intercept/Joinpoint.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/intercept/MethodInterceptor.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.6.1/aopalliance-repackaged-2.6.1.jar:org/aopalliance/intercept/MethodInterceptor.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:org/aopalliance/intercept/MethodInvocation.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.6.1/aopalliance-repackaged-2.6.1.jar:org/aopalliance/intercept/MethodInvocation.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/ArrayStack.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/ArrayStack.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/Buffer.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/Buffer.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/BufferUnderflowException.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/BufferUnderflowException.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$1.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/FastHashMap$1.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$CollectionView$CollectionViewIterator.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/FastHashMap$CollectionView$CollectionViewIterator.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$CollectionView.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/FastHashMap$CollectionView.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$EntrySet.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/FastHashMap$EntrySet.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$KeySet.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/FastHashMap$KeySet.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap$Values.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/FastHashMap$Values.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:org/apache/commons/collections/FastHashMap.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:org/apache/commons/collections/FastHashMap.class
+[error] deduplicate: different file contents found in the following:
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.12/3.0.1/spark-catalyst_2.12-3.0.1.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-core_2.12/3.0.1/spark-core_2.12-3.0.1.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-kvstore_2.12/3.0.1/spark-kvstore_2.12-3.0.1.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.12/3.0.1/spark-launcher_2.12-3.0.1.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.12/3.0.1/spark-network-common_2.12-3.0.1.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.12/3.0.1/spark-network-shuffle_2.12-3.0.1.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.12/3.0.1/spark-sketch_2.12-3.0.1.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sql_2.12/3.0.1/spark-sql_2.12-3.0.1.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-tags_2.12/3.0.1/spark-tags_2.12-3.0.1.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.12/3.0.1/spark-unsafe_2.12-3.0.1.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] /Users/gilwoongkang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/spark-project/spark/unused/1.0.0/unused-1.0.0.jar:org/apache/spark/unused/UnusedStubClass.class
+[error] Total time: 10 s, completed Dec 5, 2020 6:12:11 PM
+[debug] > Exec(idea-shell, None, None)
